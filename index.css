@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.container {
+    max-width: 500px;
+    background-color: #1F2937;
+    margin: 200px auto;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+
+@media(min-width: 480px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+h2 > .title {
+    color: #4ADF86;
+}
+
+p {    
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+button,
+input {    
+    color: white;
+    padding: 9px 11px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4ADF86;
+    cursor: pointer;
+}
+input.show-pass {
+    background-color: #273549;
+    color: white;
+}
+input.input-length {
+    border-radius: 0;
+    color: black;
+}
+
+ div.password-showcase {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+ }
+ div > h3.pass1,
+ h3.pass2 {
+    background-color: #273549;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
